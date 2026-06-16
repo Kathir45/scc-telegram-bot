@@ -19,7 +19,7 @@
   "author": "Smart Class Connect",
   "license": "ISC",
   "dependencies": {
-    "@supabase/supabase-js": "^2.108.2",
+    "@supabase/supabase-js": "^2.38.0",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "node-telegram-bot-api": "0.65.0"
