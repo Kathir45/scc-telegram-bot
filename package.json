@@ -1,23 +1,11 @@
 {
   "name": "smartclassconnect-bot",
   "version": "1.0.0",
-  "description": "Smart Class Connect Telegram Bot for student support, parent guidance, course recommendations, and lead generation",
+  "description": "Smart Class Connect Telegram Bot",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [
-    "telegram",
-    "bot",
-    "education",
-    "courses",
-    "student-support",
-    "lead-generation"
-  ],
-  "author": "Smart Class Connect",
-  "license": "ISC",
   "dependencies": {
     "dotenv": "17.4.2",
     "express": "5.2.1",
@@ -25,6 +13,6 @@
     "@supabase/supabase-js": "2.38.0"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": "14.0.0"
   }
 }
